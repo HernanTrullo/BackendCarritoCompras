@@ -1,0 +1,35 @@
+my-ecommerce-app/
+│
+├── src/
+│   ├── config/
+│   │   └── database.js           # Configuración de la conexión a MySQL
+│   │
+│   ├── controllers/
+│   │   ├── productController.js  # Controladores para productos
+│   │   └── categoryController.js # Controladores para categorías
+│   │
+│   ├── models/
+│   │   ├── productModel.js       # Modelo de producto
+│   │   └── categoryModel.js      # Modelo de categoría
+│   │
+│   ├── repositories/
+│   │   ├── productRepository.js  # Repositorio para manejar la lógica de acceso a datos de productos
+│   │   └── categoryRepository.js # Repositorio para manejar la lógica de acceso a datos de categorías
+│   │
+│   ├── routes/
+│   │   ├── productRoutes.js      # Rutas para la gestión de productos
+│   │   └── categoryRoutes.js     # Rutas para la gestión de categorías
+│   │
+│   ├── services/
+│   │   ├── productService.js     # Servicios para manejar la lógica de negocio de productos
+│   │   └── categoryService.js    # Servicios para manejar la lógica de negocio de categorías
+│   │
+│   └── app.js                    # Archivo principal de la aplicación, configura el servidor y los middleware
+│
+├── tests/                        # Directorio para pruebas unitarias y de integración
+│   ├── productTests.js
+│   └── categoryTests.js
+│
+├── package.json                  # Archivo de configuración del proyecto y dependencias
+├── .env                          # Archivo para variables de entorno
+└── README.md                     # Documentación del proyecto

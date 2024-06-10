@@ -1,0 +1,27 @@
+ecommerce/
+│
+├── src/        
+│   ├── controllers/
+│   │   ├── productoController.js  
+│   │   └── categoriaController.js 
+│   │
+│   ├── models/
+│   │   ├── productoModel.js      
+│   │   └── categoriaModel.js     
+│   │
+│   ├── repositories/
+│   │   ├── productoRepository.js  
+│   │   └── categoriaRepository.js 
+│   │
+│   ├── routes/
+│   │   ├── productoRoutes.js     
+│   │   └── categoriaRoutes.js    
+│   │
+│   ├── services/
+│   │   ├── productoService.js    
+│   │   └── categoriaService.js    
+│   │
+│   └── server.js                    
+│                                      
+└── package.json                  
+
